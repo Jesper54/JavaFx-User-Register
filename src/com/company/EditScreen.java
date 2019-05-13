@@ -108,7 +108,7 @@ public class EditScreen extends Application {
         // SUBMIT EDIT
         SubmitEdit.setOnAction(e -> {
 
-            if(first_name.getText().equals("") || AddDate.getValue() == null || last_name.getText().equals("") || tussenvoegsel.getText().equals("") || adres.getText().equals("") || huisnummer.getText().equals("") || postcode.getText().equals("") || plaats.getText().equals("") || email.getText().equals("") || contactgegevens.getText().equals(""))
+            if(first_name.getText().equals("") || AddDate.getValue() == null || last_name.getText().equals("") || adres.getText().equals("") || huisnummer.getText().equals("") || postcode.getText().equals("") || plaats.getText().equals("") || email.getText().equals("") || contactgegevens.getText().equals(""))
             {
                 Alert alert = new Alert(Alert.AlertType.WARNING);
                 alert.setTitle("Something went wrong");
